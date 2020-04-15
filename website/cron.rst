@@ -45,3 +45,11 @@ different value within the `Custom JSON` :ref:`customjson_website`:
    {
      "type_cronjob_interval": 5
    }
+
+Or global within the `Custom JSON` :ref:`customjson_server`:
+
+.. code-block:: json
+
+   {
+     "website::type_cronjob_interval": 5
+   }
