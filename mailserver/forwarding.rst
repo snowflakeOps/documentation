@@ -4,14 +4,13 @@ Forwarding
 E-mail forwarding is not always that easy. SPF records can be broken,
 and if an email is lost, it is not easy to debug where it got lost.
 We therefore recommend not to use e-mail forwarding whenever possible.
-
 If you still need a forwarding there are the following possibilities.
 
 As an administrator you can create a Sieve filter. Forwardings created
-by Sieve Filter are ARC-signed and the `envelope-from` header is rewritten
+by Sieve Filters are ARC-signed and the ``envelope-from`` header is rewritten
 accordingly. This way, there are fewer problems with SPF.
 
-1. Navigate to `/mailbox`, then "Filter"
+1. Navigate to ``/mailbox``, then Filter
 2. Add a new filter with the following content:
 
 ::
@@ -20,9 +19,9 @@ accordingly. This way, there are fewer problems with SPF.
   discard;
 
 As a user you can create a forwarding with SOGo. Technically, SOGo also
-uses sieve filters, the `envelope-from` is also rewritten.
+uses sieve filters.
 
-1. Navigate to `/SOGo`, then open settings
+1. Navigate to ``/SOGo``, then open settings
 2. Click on Mail, then Forward
 3. Create your forwarding here
 
