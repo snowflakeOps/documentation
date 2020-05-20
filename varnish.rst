@@ -82,3 +82,9 @@ Configuration through `Custom JSON` :ref:`customjson_server`.
      "varnish::daemon_options": "-p vcc_allow_inline_c=on"
    }
 
+HTTP Headers
+============
+
+By default, Varnish uses HTTP headers to decide whether a request should be chached or not.
+See the chapter `"The role of HTTP Headers" <See the chapter "The role of HTTP Headers" in the official Varnish documentation.>`_ in the official Varnish documentation.
+
