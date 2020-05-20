@@ -85,6 +85,6 @@ Configuration through `Custom JSON` :ref:`customjson_server`.
 HTTP Headers
 ============
 
-By default, Varnish uses HTTP headers to decide whether a request should be chached or not.
-See the chapter `"The role of HTTP Headers" <See the chapter "The role of HTTP Headers" in the official Varnish documentation.>`_ in the official Varnish documentation.
+By default, Varnish uses HTTP headers to decide whether a request should be cached or not.
+See the chapter `"The role of HTTP Headers" <https://varnish-cache.org/docs/6.1/users-guide/increasing-your-hitrate.html#the-role-of-http-headers>`_ in the official Varnish documentation.
 
