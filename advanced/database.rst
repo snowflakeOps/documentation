@@ -156,8 +156,8 @@ You can restore mysql databases from snapshots with the ``mysqlrestore`` command
 -  the temporary instance runs on a separate port, further details are displayed directly on the console
 -  mysqlrestore must be running to work with it. So you need to use a second SSH connection until you are done.
 
-Binary Loggin
--------------
+Binary Logging
+--------------
 
 The MySQL binary log is disabled by default. You can activate the binary log as follows.
 But keep in mind that binary logging can take up a lot of diskspace.
