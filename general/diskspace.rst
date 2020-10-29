@@ -33,18 +33,18 @@ All data stored on the disk.
 How much storage space do the daily snapshots use?
 --------------------------------------------------
 
+It is not possible to show how much disk space a single snapshot use,
+which is due to the way how copy on write and deduplication in Btrfs works.
 For the daily file system snapshots (see :ref:`backup`) only the changed data occupies storage.
 Depending on the use of the server, the consumption therefore varies.
-It is not possible to show how much disk space a single snapshot use,
-which is due to the way how copy on write, deduplication and Btrfs works.
 
 * However, you can calculate the consumption of all snapshots by subtracting the total of ``diskusage`` fom the used value of ``df -h /``.
-* Assuming you change 1GB of data every day, the snapshots then need 1GB every day (1GB x 30 days = 30GB in a month).
+* Assuming you change 1GB of data every day, the daily snapshots then need 1GB (1GB x 30 days = 30GB in a month).
 
-I have deleted many files. But the diskspace has not changed.
--------------------------------------------------------------
+I have deleted many files, but the discusage has not changed
+------------------------------------------------------------
 
-All files you delete are still referenced in the snapshots and therefore still occupy disk space.
+All files you have deleted are still referenced in the snapshots and therefore still occupy disk space.
 By default, snapshots are kept for 30 days. So the diskusage of deleted files are taken in account in 30 days.
 
 Can I delete snapshots?
