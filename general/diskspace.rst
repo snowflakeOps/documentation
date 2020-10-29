@@ -47,7 +47,7 @@ Technically we use btrfs for the file system snapshots.
 Unfortunately it is not possible to show how much disk space all snapshots need in total,
 which is due to the way btrfs works (Copy on Write).
 
-However, you can calculate the actual consumption by subtracting the total of `df -Th /' from `diskusage'.
+However, you can calculate the actual consumption by subtracting the total of ``df -Th /`` from ``diskusage``.
 The difference is used for the snapshots.
 
 I have deleted many files. But the diskspace has not changed.
