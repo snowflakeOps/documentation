@@ -1,5 +1,5 @@
 .. index::
-   single: Diskspace
+   triple: Diskspace, Snapshot
    :name: diskspace
 
 =========
