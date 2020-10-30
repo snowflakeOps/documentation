@@ -1,5 +1,5 @@
 .. index::
-   triple: Backup, Snapshot
+   triple: Backup; Snapshot
    :name: backup
 
 ======
