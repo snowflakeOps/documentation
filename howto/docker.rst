@@ -19,6 +19,9 @@ front of your application.
 #. Go to websites, and create a new one
 #. Select website type :ref:`website-type_docker` and configure `Proxy pass` to your Docker containers port
 
+The ``Proxy pass`` value must also include the protocol such as http or https.
+An example of a correct value: ``http://127.0.0.1:8080``
+
 Access with SSH
 ===============
 
