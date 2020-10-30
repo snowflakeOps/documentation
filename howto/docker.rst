@@ -33,7 +33,7 @@ Run Docker Container
    # run your docker container (nginx as example)
    $ docker run --detach --restart always --publish 127.0.0.1:8080:80 nginx
 
-You can use any free port. In this example we expose our docker container at 127.0.0.1.8080.
+You can use any free port. In this example we expose our docker container at 127.0.0.1:8080.
 
 .. tip::
 
