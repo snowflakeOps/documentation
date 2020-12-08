@@ -50,8 +50,9 @@ Used to create a HTML only website with no dynamic processing altogether.
 
 Node.js
 -------
+Your Node.js application is run with a daemon on controlled by Monit. To work properly its necessary to execute the application directly and not through for example ``npm run start`` which forks the actuall process and would lead to incorrect process handling.
+.. tip:: Also take a look at our How-to :ref:`howto-nuxt`.
 
-* your Node.js application is run with a daemon on controlled by Monit
 * select custom node version trough `nvm <https://github.com/creationix/nvm#usage>`__, by default, the latest node lts version is installed
 * nodejs has to listen on the ``~/cnf/nodejs.sock`` socket, permission ``660``
 

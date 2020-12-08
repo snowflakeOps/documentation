@@ -52,8 +52,10 @@ particular subfolder. To accomplish this, we have to create the
 
 .. code-block::
 
-   DAEMON=npm
-   OPTIONS="run --prefix opsone-demo start"
+   APPDIR=opsone-demo
+   export PATH=${NODEJS_HOME}/${APPDIR}/node_modules/.bin/:$PATH
+   DAEMON="nuxt"
+   OPTIONS="start ${APPDIR}"
 
 Nuxt.js Configuration
 ---------------------
@@ -70,6 +72,8 @@ Nuxt.js configuration in ``~/opsone-demo/nuxt.config.js``:
      },
      other: options
    }
+
+.. tip:: Do not forget to update the socket path accordingly.
 
 Build
 =====
