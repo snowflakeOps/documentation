@@ -80,7 +80,7 @@ Access Local MariaDB
 ====================
 
 For security reasons, we only allow access to the MariaDB from localhost, but sometimes
-it is desirable to use the local MariaDB form inside a Docker container.
+it is desirable to use the local MariaDB from inside a Docker container.
 
 To achive this you need to modify the `Custom JSON` :ref:`customjson_server` as follows.
 
