@@ -101,7 +101,6 @@ i tend to name it the same as the database, for consistency.
 Grant this new user premission to an existing MariaDB.
 .. code-block::
 
-
   "database::grants": {
     "<MARIADB_USER>@172.16.%.%": {
       "user": "<MARIADB_USER>@172.16.%.%",
@@ -112,6 +111,7 @@ Grant this new user premission to an existing MariaDB.
 
 And finally in the :ref:`firewall` allow the Docker IP range to access MariaDB.
 .. code-block::
+
   "nftables::rules": {
     "accept incoming MariaDB connection from Docker": {
       "chain": "input",
