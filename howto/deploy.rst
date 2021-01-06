@@ -80,7 +80,7 @@ A example mysql command does look as follows:
 Continuous Deployment
 =====================
 
-Continuouse Deployment automatically runs the jobs defined in the ``.gitlab-ci.yml`` on each commit, in this example we build and deploy the NuxtJS Demo App. Keep in mind that this is only meant as an example, if you want to use it productively we recommend you to continue with this topic and extend it as needed, further links can be found at the end of this section.
+Continuous Deployment automatically runs the jobs defined in the ``.gitlab-ci.yml`` on each commit, in this example we build and deploy the NuxtJS Demo App. Keep in mind that this is only meant as an example, if you want to use it productively we recommend you to continue with this topic and extend it as needed, further links can be found at the end of this section.
 
 Requirements
 ------------
