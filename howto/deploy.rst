@@ -9,6 +9,7 @@ Deploy Application
 Follow this guide to deploy your application to our servers.
 
 .. tip::
+  For automatic deployment try our :ref:`howto-deploy_cd` example.
   We'd love to support you with automatic deployment processes.
   Feel free to contact us!
 
@@ -73,8 +74,8 @@ A example mysql command does look as follows:
    To skip certain tables which are not required, add the ``--ignore-table`` parameter to the ``mysqldump`` command.
 
 .. index::
-   triple: How-to; Deployment; Go-Live
-   :name: howto-deploy_golive
+   triple: How-to; Deployment; Continuous Deployment
+   :name: howto-deploy_cd
 
 Continuous Deployment
 =====================
@@ -127,6 +128,10 @@ Related links
 - `Example project <https://gitlab.com/opsone_ch/cd-example>`
 - `GitLab CI/CD <https://docs.gitlab.com/ce/ci/>`
 - `GitLab CI/CD pipeline configuration reference <https://docs.gitlab.com/ce/ci/yaml/README.html>`
+
+.. index::
+   triple: How-to; Deployment; Go-Live
+   :name: howto-deploy_golive
 
 Go Live
 =======
