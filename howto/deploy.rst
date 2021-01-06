@@ -113,10 +113,10 @@ GitLab
 
 #. create a new and empty project
 #. add the following CI/CD variables under ``Settings`` > ``CI/CD`` and expand ``Variables``.
-  - These variables will be used to access the website we created above.
-  - Key: `DEPLOY_SERVER`, value: the hostname from the server above
-  - Key: `DEPLOY_USER`, value: the website name from above
-  - key: `SSH_DEPLOY_KEY` value: the content of the file `cd-access.key` from above
+   - These variables will be used to access the website we created above.
+   - Key: `DEPLOY_SERVER`, value: the hostname from the server above
+   - Key: `DEPLOY_USER`, value: the website name from above
+   - key: `SSH_DEPLOY_KEY` value: the content of the file `cd-access.key` from above
 #. download and unpack the sample project https://team.opsone.ch/marco/website/-/archive/master/website-master.zip
 #. commit the contents of the extracted folder to the newly created GitLab project
 
