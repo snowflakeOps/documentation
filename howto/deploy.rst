@@ -118,14 +118,14 @@ GitLab
   * Key: `DEPLOY_USER`, value: the website name from above
   * key: `SSH_DEPLOY_KEY` value: the content of the file `cd-access.key` from above
 
-* download and unpack the `sample project https://team.opsone.ch/marco/website/-/archive/master/website-master.zip`_
+* download and unpack the `sample project <https://gitlab.com/opsone_ch/cd-example-nuxtjs/-/archive/master/cd-example-nuxtjs-master.zip>`_
 * commit the contents of the extracted folder to the newly created GitLab project
 
 Under ``CI/CD`` > ``Pipelines`` you will now see, if everything worked, a ``running`` pipeline, once this has the status ``passed`` you should be able to go to the website and see the NuxtJS demo page.
 
 Related links
 -------------
-* `Example project <https://gitlab.com/opsone_ch/cd-example-nuxt>`_
+* `Example project <https://gitlab.com/opsone_ch/cd-example-nuxtjs>`_
 * `GitLab CI/CD <https://docs.gitlab.com/ce/ci/>`_
 * `GitLab CI/CD pipeline configuration reference <https://docs.gitlab.com/ce/ci/yaml/README.html>`_
 
