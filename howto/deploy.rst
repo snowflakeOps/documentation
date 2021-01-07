@@ -80,7 +80,7 @@ A example mysql command does look as follows:
 Continuous Deployment
 =====================
 
-Continuous Deployment automatically runs the jobs defined in the ``.gitlab-ci.yml`` on each commit, in this example we build and deploy the NuxtJS Demo App. Keep in mind that this is only meant as an example, if you want to use it productively we recommend you to continue with this topic and extend it as needed, further links can be found at the end of this section.
+Continuous Deployment automatically runs the jobs defined in the ``.gitlab-ci.yml`` on each commit, in this example we build and deploy the Nuxt.js demo app. Keep in mind that this is only meant as an example, if you want to use it productively we recommend you to continue with this topic and extend it as needed, further links can be found at the end of this section.
 
 Preparation
 -----------
@@ -106,9 +106,7 @@ Website
 * choose your server or create a new server
 * go to websites and create a new one
 * choose the website type ``Node.js``
-* go to the tab ``SSH Access`` and press ``Add SSH Key``
-
-  * As ``Key`` use the content from ``cd-access.key.pub`` file above
+* go to the tab ``SSH Access`` and add a new ``SSH Key`` with the content of the file ``cd-access.key.pub`` from above as key
 
 GitLab
 ------
@@ -117,9 +115,9 @@ GitLab
 * add the following CI/CD variables under ``Settings`` > ``CI/CD`` and expand ``Variables``.
 
   * These variables will be used to access the website we created above.
-  * Key: ``DEPLOY_SERVER``, value: the hostname from the server above
-  * Key: ``DEPLOY_USER``, value: the website name from above
-  * key: ``SSH_DEPLOY_KEY`` value: the content of the file ``cd-access.key`` from above
+  * Key: ``DEPLOY_SERVER``, Value: the hostname from the server above
+  * Key: ``DEPLOY_USER``, Value: the website name from above
+  * Key: ``SSH_DEPLOY_KEY``, Value: the content of the file ``cd-access.key`` from above
 
 * download and unpack the `sample project <https://gitlab.com/opsone_ch/cd-example-nuxtjs/-/archive/master/cd-example-nuxtjs-master.zip>`_
 * commit the contents of the extracted folder to the newly created GitLab project
