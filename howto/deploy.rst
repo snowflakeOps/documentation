@@ -105,7 +105,10 @@ Website
 * log in to `cockpit.opsone.ch <https://cockpit.opsone.ch>`_
 * choose your server or create a new server
 * go to websites and create a new one
-* choose the website type Node.js
+* choose the website type ``Node.js``
+* go to the tab ``SSH Access`` and press ``Add SSH Key``
+
+  * As ``Key`` use the content from ``cd-access.key.pub`` file above
 
 GitLab
 ------
@@ -114,9 +117,9 @@ GitLab
 * add the following CI/CD variables under ``Settings`` > ``CI/CD`` and expand ``Variables``.
 
   * These variables will be used to access the website we created above.
-  * Key: `DEPLOY_SERVER`, value: the hostname from the server above
-  * Key: `DEPLOY_USER`, value: the website name from above
-  * key: `SSH_DEPLOY_KEY` value: the content of the file `cd-access.key` from above
+  * Key: ``DEPLOY_SERVER``, value: the hostname from the server above
+  * Key: ``DEPLOY_USER``, value: the website name from above
+  * key: ``SSH_DEPLOY_KEY`` value: the content of the file ``cd-access.key`` from above
 
 * download and unpack the `sample project <https://gitlab.com/opsone_ch/cd-example-nuxtjs/-/archive/master/cd-example-nuxtjs-master.zip>`_
 * commit the contents of the extracted folder to the newly created GitLab project
