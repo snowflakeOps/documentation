@@ -22,8 +22,8 @@ Instance Options
 version
 -------
 
-* desired Solr version
-* Docker Hub image
+* desired Solr version, `available on Docker Hub <https://hub.docker.com/r/typo3solr/ext-solr/tags?page=1&ordering=last_updated>`__
+* please check if your chosen version is available on docker hub
 * tested versions
 
   * ``typo3solr/ext-solr:10.0.1``
