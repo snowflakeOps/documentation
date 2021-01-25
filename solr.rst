@@ -22,7 +22,7 @@ Instance Options
 version
 -------
 
-* desired Solr version, `available on Docker Hub <https://hub.docker.com/r/typo3solr/ext-solr/tags?page=1&ordering=last_updated>`__
+* desired Solr version, available on Docker Hub [`1 <https://hub.docker.com/r/typo3solr/ext-solr/tags>`__] [`1 <https://hub.docker.com/_/solr?tab=tags>`__]
 * please check if your chosen version is available on docker hub
 * tested versions
 
